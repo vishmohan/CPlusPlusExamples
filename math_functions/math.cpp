@@ -22,13 +22,17 @@ int main() {
     double n6{47.25};
     cout << "sqrt of " << n6 << " : " << sqrt(n6) << endl;
 
-//5. Trignometric functions: sin(x), cos(x), tan(x) note: x is in radians
+//5. pow(x,y) returns x^y
+    double base{3}, exponent{4};
+    cout << base << " ^ " << exponent << " = " << pow(base,exponent) << endl;
+
+//6. Trignometric functions: sin(x), cos(x), tan(x) note: x is in radians
     double angle{M_PI/3} ; //angle = 60 degrees
     cout << "Sin(PI/3) = " << sin(angle) << endl;
     cout << "Cos(PI/3) = " << cos(angle) << endl;
     cout << "Tan(PI/3) = " << tan(angle) << endl;
 
-//6. Logarithms: Natural log/Base 10 log
+//7. Logarithms: Natural log/Base 10 log
     int n7{2};
     cout << "Natural ln(2) = " << log(n7) << endl;
     cout << "Base10  log10(2) = " << log10(n7) << endl;
