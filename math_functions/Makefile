@@ -1,5 +1,5 @@
 default:
-	g++ -std=c++17 math.cpp
+	g++ -std=c++17 floor_ceil.cpp
 
 clean:
-	rm -f math.o a.out
+	rm -f floor_ceil.o a.out
