@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void swap_elements(int arr[], int k) {
+//void swap_elements(int arr[], int k) {
+void swap_elements(int* arr, int k) {
 	int temp = arr[k];
 	arr[k] = arr[k+1];
 	arr[k+1] = temp;
-    cout << std::hex << "addr = " << arr << endl;
+    //cout << std::hex << "addr = " << arr << endl;
 }
 
 int main() {
